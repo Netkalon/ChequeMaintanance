@@ -9,7 +9,8 @@ namespace ChequeMaintanance.Models
         public string ChequeNumber { get; set; }
         public string GivenTo { get; set; }
         public string GivenDate { get; set; }
-        public string ValidUpto { get; set; }
+        public string ValidUpto { get; set; } 
+        
         public decimal Amount { get; set; }
         public string Notes { get; set; }
         public bool IsDeleted { get; set; }
